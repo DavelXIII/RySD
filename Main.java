@@ -14,9 +14,9 @@ public class Main {
 	private final static String proxy_port = "3128"; 
 
 	public static void main(String[] args) throws IOException {
-    	// Descomente las siguiente líneas si lo está probando en el laboratorio y accede a Internet usando el proxy
-    	// System.setProperty("https.proxyHost",proxy); 
-    	// System.setProperty("https.proxyPort",proxy_port);
+    	//Descomente las siguiente líneas si lo está probando en el laboratorio y accede a Internet usando el proxy
+    	//System.setProperty("https.proxyHost",proxy); 
+    	//System.setProperty("https.proxyPort",proxy_port);
     	
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Trivial (version RySD)");
